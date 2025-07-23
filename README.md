@@ -247,7 +247,7 @@ To reset user profile and preferences:
 ## Author & Contact
 
 **Created by:** *Your Name*
-📫 Email: [your.email@example.com](mailto:dhruvbalchandani1@gmail.com)
+📫 Email: [Dhruv Balchandani](mailto:dhruvbalchandani1@gmail.com)
 🌐 [LinkedIn](https://linkedin.com/in/dhruvbalchandani) | [GitHub](https://github.com/dhruvx19)
 
 ---
