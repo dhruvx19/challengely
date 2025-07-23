@@ -1,13 +1,12 @@
-```markdown
-# 🚀 Challengely – Personalized Daily Challenges App
+# Challengely – Personalized Daily Challenges App
 
 Challengely is a beautifully crafted Flutter app that delivers personalized daily challenges tailored to users’ interests and difficulty preferences. Designed with smooth animations, delightful interactions, and a robust chat-based assistant, this app creates a motivating and engaging daily routine.
 
 ---
 
-## ✨ Features
+## Features
 
-### 🎬 Onboarding & Profile Setup
+### Onboarding & Profile Setup
 - Multi-step animated onboarding (3–10 screens)
 - Interest selection (fitness, creativity, mindfulness, social, learning)
 - Difficulty level selector (easy/medium/hard)
@@ -15,7 +14,7 @@ Challengely is a beautifully crafted Flutter app that delivers personalized dail
 - Reusable animated components and skip option with defaults
 - Preferences stored locally
 
-### 📅 Daily Challenge Experience
+### Daily Challenge Experience
 - One unique challenge per day
 - Animated card reveal for today's challenge
 - Challenge info: title, description, estimated time, difficulty
@@ -24,7 +23,7 @@ Challengely is a beautifully crafted Flutter app that delivers personalized dail
 - Pull-to-refresh (rotate among 3 preset challenges)
 - Shareable challenge image (Instagram, WhatsApp, etc.)
 
-### 💬 AI-Inspired Challenge Chat Assistant
+### AI-Inspired Challenge Chat Assistant
 - Chat-based motivation, hints, and reflection
 - Expandable message input with 500 character limit
 - Animated typing indicators with hardcoded streaming delay
@@ -35,7 +34,7 @@ Challengely is a beautifully crafted Flutter app that delivers personalized dail
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 
 ```
 
@@ -55,7 +54,7 @@ lib/
 
 ---
 
-## 🧠 State Management
+## State Management
 
 We use **Provider** for clean, reactive, and maintainable state management.
 
@@ -72,23 +71,23 @@ We use **Provider** for clean, reactive, and maintainable state management.
 
 ---
 
-## 🛡 Edge Case Handling – Fully Implemented
+## Edge Case Handling – Fully Implemented
 
 All critical edge cases across general, challenge, and chat flows have been addressed:
 
-| Category      | Edge Case                                  | Status |
-|---------------|---------------------------------------------|--------|
-| General       | No challenges available                     | ✅     |
-|               | Very long challenge descriptions            | ✅     |
-|               | Button debounce (300ms)                     | ✅     |
-| Chat          | 500 character message limit                 | ✅     |
-|               | Empty message blocked                       | ✅     |
-|               | Rate limiting (3 messages / 15 seconds)     | ✅     |
-|               | Duplicate message prevention (5s)           | ✅     |
-|               | Keyboard overlap and scroll                 | ✅     |
-|               | App background/foreground recovery          | ✅     |
-|               | Response variation to avoid repetition      | ✅     |
-|               | Fallback for unrecognized inputs            | ✅     |
+| Category      | Edge Case                                  
+|---------------|---------------------------------------------
+| General       | No challenges available                     
+|               | Very long challenge descriptions            
+|               | Button debounce (300ms)                     
+| Chat          | 500 character message limit                 
+|               | Empty message blocked                       
+|               | Rate limiting (3 messages / 15 seconds)     
+|               | Duplicate message prevention (5s)           
+|               | Keyboard overlap and scroll                 
+|               | App background/foreground recovery         
+|               | Response variation to avoid repetition     
+|               | Fallback for unrecognized inputs            
 
 🧪 **Additional Implementations**
 - Smart truncation for long content
@@ -100,7 +99,7 @@ All critical edge cases across general, challenge, and chat flows have been addr
 
 ---
 
-## 🧱 Architecture Overview
+## Architecture Overview
 
 The app follows **MVU (Model-View-Update)** inspired principles for clarity:
 
@@ -114,9 +113,8 @@ Model/Data Layer (models/)
 Storage/Service Layer (services/, SharedPreferences)
 ````
 
-### 📊 High-Level Architecture Diagram
+###  High-Level Architecture Diagram
 
-*(Let me know if you’d like this as an image or exported .drawio/.svg)*
 
 ```
                 +-----------------------------+
@@ -158,16 +156,16 @@ Storage/Service Layer (services/, SharedPreferences)
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
-### 🔧 Prerequisites
+### Prerequisites
 
 * Flutter 3.x
 * Dart >= 2.19.0
 * Android Studio / Xcode / VS Code
 * Device or emulator
 
-### 📦 Install dependencies
+### Install dependencies
 
 ```bash
 flutter pub get
@@ -183,7 +181,7 @@ flutter run
 
 ---
 
-## 🧪 Test Instructions
+## Test Instructions
 
 1. Launch the app — go through animated onboarding
 2. Accept today’s challenge — observe transition and timer
@@ -199,18 +197,18 @@ flutter run
 
 ---
 
-## 🔬 Performance Optimizations
+## Performance Optimizations
 
-* 🎯 60fps across screens and animations
-* ✅ Button debounce: 300ms
-* ✅ Efficient ListViews and Chat rendering
-* ✅ Chat rate-limit & message deduplication
-* ✅ Minimal rebuilds using `Selector`, `Consumer`
-* ✅ Shared animation components reused throughout app
+* 60fps across screens and animations
+* Button debounce: 300ms
+* Efficient ListViews and Chat rendering
+* Chat rate-limit & message deduplication
+* Minimal rebuilds using `Selector`, `Consumer`
+* Shared animation components reused throughout app
 
 ---
 
-## 🔧 Chat Design & Behavior
+## Chat Design & Behavior
 
 | Feature                  | Implementation                                                           |
 | ------------------------ | ------------------------------------------------------------------------ |
@@ -224,7 +222,7 @@ flutter run
 
 ---
 
-## 🧹 App Reset
+## App Reset
 
 To reset user profile and preferences:
 
@@ -234,7 +232,7 @@ To reset user profile and preferences:
 
 ---
 
-## 📦 Tech Stack
+## Tech Stack
 
 * **Flutter 3.x**
 * **Dart**
@@ -246,23 +244,18 @@ To reset user profile and preferences:
 
 ---
 
-## 🧑‍💻 Author & Contact
+## Author & Contact
 
 **Created by:** *Your Name*
-📫 Email: [your.email@example.com](mailto:your.email@example.com)
-🌐 [LinkedIn](https://linkedin.com/in/yourname) | [GitHub](https://github.com/yourusername)
+📫 Email: [your.email@example.com](mailto:dhruvbalchandani1@gmail.com)
+🌐 [LinkedIn](https://linkedin.com/in/dhruvbalchandani) | [GitHub](https://github.com/dhruvx19)
 
 ---
 
-## 📌 Final Notes
+## Final Notes
 
 * All features are fully functional offline
 * Chat system mimics real AI responsiveness and context
 * Every UX detail — from animation to scroll handling — is optimized
 * The app is designed with scalability and modularity in mind
 
----
-
-> Need the architecture image in `.svg` or `.png` form? Or a Notion-style doc export for submission? Let me know — I’ll generate it for you.
-
-```
